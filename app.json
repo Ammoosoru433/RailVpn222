@@ -4,7 +4,7 @@
     "slug": "RailVpn",
     "version": "1.0.0",
     "orientation": "portrait",
-    "owner": "Ammoosoru433",
+    "owner": "daekerrman",
     "android": {
       "package": "com.railvpn.app"
     }
