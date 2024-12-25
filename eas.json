@@ -18,5 +18,9 @@
   "submit": {
     "production": {}
   },
-    
+  "debug": {
+    "android": {
+       "workflow": "managed"
+      }
+    } 
 }
