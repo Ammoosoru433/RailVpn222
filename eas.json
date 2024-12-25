@@ -17,5 +17,8 @@
   },
   "submit": {
     "production": {}
-  }
+  },
+    "android": {
+      "workflow": "managed"
+    }
 }
