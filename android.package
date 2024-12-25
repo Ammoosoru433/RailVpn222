@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "MyApp",
+    "slug": "myapp",
+    "android": {
+      "package": "com.example.myapp"
+    }
+  }
+}
