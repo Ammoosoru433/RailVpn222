@@ -1,21 +1,22 @@
 {
-  "cli": {
-    "version": ">= 14.2.0",
-    "appVersionSource": "remote",
-    "owner": "daekerrman"
-  },
-  "build": {
-    "development": {
-      "developmentClient": true,
-      "distribution": "internal"
+  "expo": {
+    "name": "RailVpn",
+    "slug": "RailVpn",
+    "version": "1.0.0",
+    "extra": {
+      "eas": {
+        "projectId": "e7385b0b-81ee-4a5b-a073-9b23c787f2e2"
+      }
     },
-    "preview": {
-      "distribution": "internal"
+    "android": {
+      "package": "com.daekerrman.RailVpn"
     },
-    "production": {
-      "autoIncrement": true
+    "ios": {
+      "bundleIdentifier": "com.daekerrman.RailVpn"
     },
-    "submit": {
-    "production": {}
-  }  
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/e7385b0b-81ee-4a5b-a073-9b23c787f2e2"
+    }
+  }
 }
