@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "MyApp",
-    "slug": "myapp",
+    "name": "RailVpn",
+    "slug": "railvpn",
     "android": {
-      "package": "com.example.myapp"
+      "package": "com.railvpn.app"
     }
   }
 }
