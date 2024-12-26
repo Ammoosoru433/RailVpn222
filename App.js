@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 import { View, Text, PermissionsAndroid, Platform , Button , Image } from 'react-native';
+import RNFS from 'react-native-fs';
+import axios from 'axios';
 import OnVpnIcon from './onvpnicon.png' ;
 import OffVpnIcon from './offvpnicon.png' ;
 import './App.css'
