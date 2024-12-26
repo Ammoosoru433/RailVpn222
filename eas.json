@@ -1,22 +1,9 @@
 {
-  "expo": {
-    "name": "RailVpn",
-    "slug": "RailVpn",
-    "version": "1.0.0",
-    "extra": {
-      "eas": {
-        "projectId": "e7385b0b-81ee-4a5b-a073-9b23c787f2e2"
+  "build": {
+    "production": {
+      "android": {
+        "workflow": "managed"
       }
-    },
-    "android": {
-      "package": "com.daekerrman.RailVpn"
-    },
-    "ios": {
-      "bundleIdentifier": "com.daekerrman.RailVpn"
-    },
-    "runtimeVersion": "1.0.0",
-    "updates": {
-      "url": "https://u.expo.dev/e7385b0b-81ee-4a5b-a073-9b23c787f2e2"
     }
   }
 }
