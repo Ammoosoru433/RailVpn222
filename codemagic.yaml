@@ -5,7 +5,8 @@ workflows:
         # .......
         # .......
     artifacts:
-        - android/app/build/outputs/apk/release/app-release.apk   
+        paths:
+          - android/app/build/outputs/apk/release/app-release.apk
     ios-workflow-id:
         name: iOS Sample Workflow
         # ......
