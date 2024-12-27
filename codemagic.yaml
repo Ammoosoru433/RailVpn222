@@ -1,32 +1,11 @@
 workflows:
-  react_native_android:
-    name: Build React Native APK
-    max_build_duration: 60
-    environment:
-      vars:
-        NODE_OPTIONS: "--max_old_space_size=4096"
-      node: 16.19.0
-      java: openjdk17
-      android: latest
-      caches:
-        - node_modules
-        - android
-    scripts:
-      - name: Install dependencies
-        script: |
-          npm install
-          npx jetify 
-
-      - name: Build APK
-        script: |
-          cd android
-          ./gradlew assembleRelease
-
+    android-workflow-id:
+        name: Android Sample Workflow
+        # .......    
+        # .......
+        # .......
     artifacts:
-      - android/app/build/outputs/apk/release/app-release.apk
-
-    publishing:
-      scripts:
-        - name: Save APK artifact
-          script: |
-            echo "APK created successfully."
+        - android/app/build/outputs/apk/release/app-release.apk   
+    ios-workflow-id:
+        name: iOS Sample Workflow
+        # ......
